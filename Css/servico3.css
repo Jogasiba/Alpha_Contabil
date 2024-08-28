@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+html{
+    font-family: "Poppins", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    
+}
+
+div{
+    background-color: #003703;
+}
+
+.imagemCarousel{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.corpo{
+    margin-top: 160px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.video{
+    margin-top: 30px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.informacoes{
+    width: 90%;
+    margin-left: 5%;
+    padding: 20px;
+    justify-content: center;
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    margin-top: -160px;
+}
+
+.precos h4{
+    padding-bottom: 20px; 
+    color: white; 
+    font-family: 'New Amsterdam', sans-serif; 
+    font-weight: 400; 
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.precos h5{
+    color: white; 
+    font-family: 'New Amsterdam', sans-serif; 
+    font-weight: 400; 
+    font-size: 40px;
+    text-decoration: line-through;
+    padding-top: 10px;
+}
+
+.botao{
+    position: absolute;
+    text-align: right;
+}
+
+.botao_botao{
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: #003703;
+    border: 2px solid white;
+    color: white;
+    transition: all 0.5s ease;
+    bottom: 5%;
+    position: fixed;
+    margin-left: 2%;
+}
+
+.botao_botao:hover{
+    background-color: #015906;
+    border-color: white;
+}
+
+.video iframe{
+    border: 2px solid white;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+}
+
+.modal{
+    background-color: transparent;
+}
+
+.modal-header{
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+.modal-body{
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-primary{
+    width: 40%;
+}
+
+.btn-secondary{
+    width: 40%;
+}
+
+.input_uf{
+    width: 40px;
+}
+
+.input_cidade{
+    width: 50%;
+}
+
+form input{
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 5px;
+    text-align: center;
+    width: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media only screen and (max-width: 1000px){
+    iframe{
+        width: 90%;
+    }
+
+    .imagemCarousel{
+        width: 90%;
+        margin-left: 5%;
+    }
+}

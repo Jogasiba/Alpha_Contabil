@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+html{
+    font-family: "Poppins", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    text-align: center;
+}
+
+div{
+    background-color: #003703;
+}
+
+body{
+    margin: 0px;
+    width: 100%;
+}
+
+header{
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    margin-top: -160px;
+}
+
+.menu{
+    margin-top: 160px;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 20px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li:hover{
+    background-color: white;
+    color: black;
+}
+
+#Sobre{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+#Sobre iframe{
+    display: inline-block;
+    border-radius: 50px;
+}
+
+#Sobre h3{
+    color: white; 
+    font-family: 'New Amsterdam', sans-serif; 
+    font-weight: 400; 
+    font-style: normal;
+    font-size: 30px;
+}
+
+#Profissionais{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#Servicos{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#Servicos a{
+    text-decoration: none;
+    color: white;
+}
+
+#Depoimentos{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.container_depoimentos{
+    align-items: center;
+}
+
+#Contato a{
+    text-decoration: none;
+    color: white;
+}
+
+.Profissionais_2{
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.Profissionais_2 p{
+    font-weight: 400;
+}
+
+.Profissionais_2 img{
+    width: 450px;
+}
+
+.Servicos_2{
+    display: inline-block;
+    padding: 50px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+}
+
+.Servicos_2:hover{
+    background-color: #015906;
+}
+
+.Servicos_2 img{
+    width: 285px;
+}
+
+.carousel-item h3{
+    padding: 20px; 
+    color: white; 
+    font-family: 'New Amsterdam', sans-serif; 
+    font-weight: 400; 
+    font-style: normal;
+    font-size: 50px;
+}
+
+.carousel-item h4{ 
+    padding-bottom: 20px; 
+    color: white; 
+    font-family: 'New Amsterdam', sans-serif; 
+    font-weight: 400; 
+    font-style: normal;
+    font-size: 30px;
+}
+
+.carousel-item h5{ 
+    color: white; 
+    font-family: 'New Amsterdam', sans-serif; 
+    font-weight: 400; 
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.carousel-item img{ 
+    transition: all 0.5s ease;
+}
+
+.carousel-item img:hover{ 
+    opacity: 0.5;
+}
+
+.planos{
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    background-color: #015906;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: white;
+    margin: 0px;
+    padding: 20px;
+}
+
+footer p{
+    padding-top: 20px;
+    font-family: 'New Amsterdam', sans-serif; 
+    font-weight: 400; 
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.redes{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container_redes:hover{
+    background-color: #015906;
+}
+
+.container_redes{
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    transition: all 0.5s ease;
+}
+
+form{
+    background-color: #015906;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: 'New Amsterdam', sans-serif; 
+    font-weight: 400; 
+    font-style: normal;
+}
+
+form input{
+    border-radius: 50px;
+    width: 80%;
+    border: 2px solid #003703;
+    text-align: center;
+}
+
+.botao{
+    width: 80%;
+    transition: all 0.5s ease;
+    height: 50px;
+}
+
+.botao:hover{
+    background-color: #003703;
+    color: white;
+    border-color: white;
+}
+
+.depoimento{
+    display: inline-table;
+    padding: 30px;
+}
+
+.depoimento img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+
+.depoimento p{
+    width: 200px;
+}
+
+@media only screen and (max-width: 600px){
+    iframe{
+        width: 80%;
+        height: 300px;
+    }
+
+    .redes{
+        font-size: 19px;
+    }
+
+    #Sobre{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #Profissionais{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #Profissionais img{
+        width: 90%;
+        margin-bottom: 60px;
+    }
+
+    #Servicos{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #Depoimentos{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
